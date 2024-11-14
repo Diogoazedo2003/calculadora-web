@@ -57,7 +57,7 @@ document.getElementById('divisaoForm').addEventListener('submit', function (even
       </table>
   `;
   
-  document.getElementById('resultado').innerHTML = resultadoTabela;
+  document.getElementById('resultado1').innerHTML = resultadoTabela;
 });
 
 // Lógica para o Resto (Módulo)
@@ -91,7 +91,7 @@ document.getElementById('restoForm').addEventListener('submit', function (event)
       </table>
   `;
   
-  document.getElementById('resultado').innerHTML = resultadoTabela;
+  document.getElementById('resultado2').innerHTML = resultadoTabela;
 });
 
 // Lógica para a Multiplicação
@@ -119,7 +119,7 @@ document.getElementById('multiplicacaoForm').addEventListener('submit', function
       </table>
   `;
   
-  document.getElementById('resultado').innerHTML = resultadoTabela;
+  document.getElementById('resultado3').innerHTML = resultadoTabela;
 });
 
 // Lógica para a Subtração
@@ -147,5 +147,5 @@ document.getElementById('subtracaoForm').addEventListener('submit', function (ev
       </table>
   `;
   
-  document.getElementById('resultado').innerHTML = resultadoTabela;
+  document.getElementById('resultado4').innerHTML = resultadoTabela;
 });
