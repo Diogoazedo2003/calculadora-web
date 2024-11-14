@@ -17,7 +17,7 @@ document.getElementById('somaForm').addEventListener('submit', function (event) 
           <tr>
               <td>${num1}</td>
               <td>${num2}</td>
-              <td>Soma</td>
+              <td>${num1} + ${num2} =</td>
               <td>${resultado}</td>
           </tr>
       </table>
@@ -51,7 +51,7 @@ document.getElementById('divisaoForm').addEventListener('submit', function (even
           <tr>
               <td>${num1}</td>
               <td>${num2}</td>
-              <td>Divisão</td>
+              <td>${num1} ÷ ${num2} =</td>
               <td>${resultado}</td>
           </tr>
       </table>
@@ -85,7 +85,7 @@ document.getElementById('restoForm').addEventListener('submit', function (event)
           <tr>
               <td>${num1}</td>
               <td>${num2}</td>
-              <td>Resto</td>
+              <td>${num1} % ${num2} =</td>
               <td>${resultado}</td>
           </tr>
       </table>
@@ -113,7 +113,7 @@ document.getElementById('multiplicacaoForm').addEventListener('submit', function
           <tr>
               <td>${num1}</td>
               <td>${num2}</td>
-              <td>Multiplicação</td>
+              <td>${num1} × ${num2} =</td>
               <td>${resultado}</td>
           </tr>
       </table>
@@ -141,7 +141,7 @@ document.getElementById('subtracaoForm').addEventListener('submit', function (ev
           <tr>
               <td>${num1}</td>
               <td>${num2}</td>
-              <td>Subtração</td>
+              <td>${num1} - ${num2} =</td>
               <td>${resultado}</td>
           </tr>
       </table>
